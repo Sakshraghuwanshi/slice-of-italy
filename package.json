@@ -1,0 +1,10 @@
+{
+    "name": "slice-of-italy",
+    "version": "1.0.0",
+    "author": "Sakshi Raghuwanshi <sakshiraghuwanshi108@gmail.com>",
+    "scripts": {
+        "start": "cd backend/built && node server.js",
+        "prebuild": "cd backend && npm run build",
+        "build": "cd frontend && npm run build"
+    }
+}
